@@ -1,0 +1,15 @@
+{
+ "generated": "2026-10-14",
+ "queue_n": 180,
+ "action_mix": {
+  "QUOTE": 36,
+  "REQUEST_INFO": 103,
+  "DECLINE": 26,
+  "REFER_UNDERWRITER": 15
+ },
+ "band_agreement_exact": "62/180",
+ "band_agreement_pct": 34.4,
+ "mean_completeness": 96.0,
+ "mean_fit": 77.6,
+ "headline": "180 submissions triaged: 36 ready to quote, 103 need client follow-up, 15 need underwriter review, 26 declined on appetite."
+}

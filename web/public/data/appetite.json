@@ -1,0 +1,40 @@
+{
+ "clauses": [
+  {
+   "code": "APP-1",
+   "label": "Applicant age within target book",
+   "weight": 30,
+   "kind": "hard"
+  },
+  {
+   "code": "APP-2",
+   "label": "Build (BMI) within limit",
+   "weight": 30,
+   "kind": "hard"
+  },
+  {
+   "code": "APP-3",
+   "label": "Preferred build (BMI)",
+   "weight": 15,
+   "kind": "soft"
+  },
+  {
+   "code": "APP-4",
+   "label": "Preferred age band",
+   "weight": 15,
+   "kind": "soft"
+  },
+  {
+   "code": "APP-5",
+   "label": "Medical evidence fully answered",
+   "weight": 10,
+   "kind": "soft"
+  }
+ ],
+ "bounds": {
+  "age_min": 0.1,
+  "age_max": 0.8,
+  "bmi_max": 0.7
+ },
+ "note": "Seeded carrier appetite statement (disclosed)."
+}
